@@ -96,7 +96,7 @@ class CT_DATASET:
                 sex = "F"
             else:
                 sex = "F"
-            print("AFTER IPOLOGISMOS: ",sex)
+            #print("AFTER IPOLOGISMOS: ",sex)
 
 
         # if str(name.original_string).split('b')[-1].split("^")[1][0] == 'AGNOSTON' and str(name.original_string).split('b')[-1].split("^")[1][-1] == 'S'
