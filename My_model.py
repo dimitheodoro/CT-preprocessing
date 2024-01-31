@@ -41,7 +41,7 @@ def MultipleInputsModel(input_shape, sex_label_shape, age_label_shape,GCS_label_
     # Create the model
     model = Model([input_image,sex_label,age_label,GCS_label], outputs=output_layer)
     # Compile the model
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'],run_eagerly=True)
     return model
 
 
